@@ -45,13 +45,14 @@ body {
 }
 
 .search {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(23, 23, 23);
     padding: 10px;
     color: white;
     position: relative;
     border: none;
     height: 40px;
     width: 500px;
+    font-size: 20px;
 }
 
 .container-header .box1 .lista ul {
@@ -67,8 +68,6 @@ body {
 
 .container-main .banner {
     background-color:black;
-    position: relative;
-    top: 100px;
     width: 80%;
     height: 700px;
     margin: 0 auto;
@@ -77,69 +76,76 @@ body {
 }
 
 .container-main .banner img {
-    position: relative;
     width: 100%;
     object-fit: cover;
 }
 
 .titulo1{
-    position: relative;
-    bottom: 50px;
-    color: white;
+    color: black;
     margin-left: 200px;
     z-index: 3;
     font-family: Roboto;
     font-size: 40px;
-    font-style: oblique;
+    bottom: 10px;
 }
 
 .lancamentos_container{
     display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
     background-color: rgb(23, 23, 23);
     width: 100%;
     height: 700px;
-    top: 200px;
 }
 
 .titulo2{
-    position: relative;
-    bottom: 25px;
-    color: white;
+    color: black;
     margin-left: 200px;
     z-index: 3;
     font-size: 40px;
     font-family: Roboto;
-    font-style: oblique;
+    bottom: 10px;
 }
 
 .mais_vendidos_container{
     display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
     background-color: rgb(23, 23, 23);
     width: 100%;
-    height: 500px;
-    top: 500px;
+    height: 700px;
+}
+
+.titulo3{
+    top: 400px;
+    color: black;
+    margin-left: 200px;
+    z-index: 3;
+    font-size: 40px;
+    font-family: Roboto;
+    bottom: 10px;
 }
 
 .populares_container{
     display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
     background-color: rgb(23, 23, 23);
     width: 100%;
-    height: 500px;
-    top: 700px;
+    height: 700px;
+}
+
+.inter_setor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    width: 100%;
+    height: 700px;
 }
 
 .espaco {
     position: relative;
-    top: 1250px;
     background-color: black;
 }
 
@@ -160,6 +166,8 @@ body {
     display: flex;
     transition: transform 0.5s ease;
     column-gap: 16px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .main-text{
