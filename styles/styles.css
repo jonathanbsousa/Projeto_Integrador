@@ -66,6 +66,14 @@ body {
     color: #000;
 }
 
+.main_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+}
+
 .container-main .banner {
     background-color:black;
     width: 80%;
@@ -80,59 +88,76 @@ body {
     object-fit: cover;
 }
 
+.main_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+}
+
 .titulo1{
-    color: black;
-    margin-left: 200px;
+    position: relative;
+    color: white;
+    right: 750px;
     z-index: 3;
     font-family: Roboto;
     font-size: 40px;
-    bottom: 10px;
+    top: 90px;
 }
 
 .lancamentos_container{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     background-color: rgb(23, 23, 23);
     width: 100%;
     height: 700px;
+    bottom: 65px;
 }
 
 .titulo2{
-    color: black;
-    margin-left: 200px;
+    position: relative;
+    color: white;
+    right: 750px;
     z-index: 3;
-    font-size: 40px;
     font-family: Roboto;
-    bottom: 10px;
+    font-size: 40px;
+    top: 90px;
 }
 
 .mais_vendidos_container{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     background-color: rgb(23, 23, 23);
     width: 100%;
     height: 700px;
+    bottom: 65px;
 }
 
 .titulo3{
-    top: 400px;
-    color: black;
-    margin-left: 200px;
+    position: relative;
+    color: white;
+    right: 750px;
     z-index: 3;
-    font-size: 40px;
     font-family: Roboto;
-    bottom: 10px;
+    font-size: 40px;
+    top: 90px;
 }
 
 .populares_container{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     background-color: rgb(23, 23, 23);
     width: 100%;
     height: 700px;
+    bottom: 65px;
 }
 
 .inter_setor{
@@ -141,14 +166,35 @@ body {
     align-items: center;
     background-color: darkred;
     width: 100%;
-    height: 700px;
+    height: 500px;
 }
 
-.espaco {
+.main_footer{
+    background-color: white;
     position: relative;
-    background-color: black;
+    width: 100%;
+    height: 400px;
+    top: 100px;
 }
 
+.main_footer .titulos_foter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.titulos_box{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    font-family: Roboto;
+    font-size: 20px;
+}
 
 /* CSS dos Componentes do Projeto - Utilize o inspecionar elementos antes de modificar os valores */
 
